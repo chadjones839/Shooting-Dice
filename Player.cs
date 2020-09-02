@@ -6,7 +6,7 @@ namespace ShootingDice
     {
         public string Name { get; set; }
         public int DiceSize { get; set; } = 6;
-
+        
         public virtual int Roll()
         {
             // Return a random number between 1 and DiceSize
