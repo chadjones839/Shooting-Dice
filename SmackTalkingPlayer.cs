@@ -10,10 +10,10 @@ namespace ShootingDice
     {
         List<string> Taunts = new List<string>()
         {
-            "What can I say about your suit that can't be said about about Afghanistan. It looks bombed up and depleted.",
-            "Now if you'll exuse me, I'm gonna go home and put water in Buck Nasty's mama's dish",
-            "You oughtta take that cane, and beat whoever made that suit",
-            "Where did you vaccuum your suit?"
+            "Watching you try to play dice is like watching a baby smoke a cigarette -- it's kind of cool, but also very disturbing",
+            "You have delusions of adequacy.",
+            "I like the way you try.",
+            "if I throw a stick, will you leave?"
         };
         
         public int TauntRoll()

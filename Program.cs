@@ -8,13 +8,13 @@ namespace ShootingDice
     {
         static void Main(string[] args)
         {
-            SmackTalkingPlayer silkyJohnson = new SmackTalkingPlayer();
-            silkyJohnson.Name = "Silky Johnson";
+            SmackTalkingPlayer smack = new SmackTalkingPlayer();
+            smack.Name = "Silky Johnson";
 
             Player player2 = new Player();
             player2.Name = "Sue";
 
-            player2.Play(silkyJohnson);
+            smack.Play(player2);
 
             Console.WriteLine("-------------------");
 
