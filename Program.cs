@@ -14,19 +14,20 @@ namespace ShootingDice
             OneHigherPlayer oneHigher = new OneHigherPlayer();
             oneHigher.Name = "OneUp Willy";
 
-
             HumanPlayer hooman = new HumanPlayer();
             hooman.Name = "I is Hooman";
-
 
             Player large = new LargeDicePlayer();
             large.Name = "Bigun Rollsalot";
 
+            SmackTalker insult = new SmackTalker();
+            insult.Name = "Dan Berry";
+
             smack.Play(oneHigher);
             Console.WriteLine("-------------------");
-            hooman.Play(smack);
+            insult.Play(smack);
             Console.WriteLine("-------------------");
-            oneHigher.Play(hooman);
+            oneHigher.Play(insult);
             Console.WriteLine("-------------------");
             large.Play(oneHigher);
             Console.WriteLine("-------------------");
