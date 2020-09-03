@@ -15,8 +15,8 @@ namespace ShootingDice
             oneHigher.Name = "OneUp Willy";
 
 
-            Player player3 = new Player();
-            player3.Name = "Wilma";
+            HumanPlayer hooman = new HumanPlayer();
+            hooman.Name = "I is Hooman";
 
 
             Player large = new LargeDicePlayer();
@@ -24,15 +24,15 @@ namespace ShootingDice
 
             smack.Play(oneHigher);
             Console.WriteLine("-------------------");
-            player3.Play(smack);
+            hooman.Play(smack);
             Console.WriteLine("-------------------");
-            oneHigher.Play(large);
+            oneHigher.Play(hooman);
             Console.WriteLine("-------------------");
             large.Play(oneHigher);
             Console.WriteLine("-------------------");
 
             List<Player> players = new List<Player>() {
-                smack, oneHigher, player3, large
+                smack, oneHigher, hooman, large
             };
 
             // PlayMany(players);
